@@ -1,0 +1,21 @@
+/mvc-app
+    /app
+        /controllers
+        /models
+        /views
+    /public
+        /assets
+        index.php
+    /config
+        config.php
+        Connector.php
+    /core
+        Controller.php
+        Model.php
+        View.php
+        Route.php
+        Auth.php
+        OAuth2Provider.php
+    /vendor
+    composer.json
+    .htaccess
