@@ -2,7 +2,7 @@
 
 namespace Config;
 
-use PDO;
+use \PDO;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -15,7 +15,7 @@ class Connector {
      * @throws \PDOException
      */
     public static function connectToDatabase() {
-        $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME;
+        $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8mb4";
         try {
             $pdo = new PDO($dsn, DB_USER, DB_PASSWORD);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

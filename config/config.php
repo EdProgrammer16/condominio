@@ -21,7 +21,7 @@ define('BASE_URL', $protocol . '://' . HOST . $baseDir. '/');
 // Caminho absoluto para a pasta do documento
 define('DOC_PAGE', '/');
 // NOME DO SITE
-define('TITULO_SITE', 'Condominio Das Acácias');
+define('TITULO_SITE', 'Condominio Website');
 
 // Caminho absoluto para a raiz do documento
 define('DOC_ROOT', $_SERVER['DOCUMENT_ROOT'] . DOC_PAGE);
@@ -35,10 +35,10 @@ define('ARQ_URL', BASE_URL . 'public/assets/arquivos/');
 define('VIDEO_URL', BASE_URL . 'public/assets/videos/');
 
 // Configurações da Base de Dados
-define('DB_HOST', 'ang.ao');
-define('DB_USER', 'condominio_user');
-define('DB_NAME', 'cartofl1_condominio');
-define('DB_PASSWORD', 'H;]9Hdy2yrgZ');
+define('DB_HOST', 'sql210.infinityfree.com');
+define('DB_USER', 'if0_37501277');
+define('DB_NAME', 'if0_37501277_condominio');
+define('DB_PASSWORD', 'uLhXM2jDPSQB5F7');
 
 // Configurações de E-mail
 define('EMAIL_HOST', 'smtp.example.com');
